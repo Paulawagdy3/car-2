@@ -1,0 +1,228 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    max-width: 90%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.shooo
+{
+    margin-top: 90px;
+}
+
+/*start header*/
+.nav-bar 
+{
+    background-color:white;
+    overflow: hidden;
+    width: 100%;
+    height: 110px;
+    margin-top: -40px;
+    position: fixed;
+    top: 0;
+    box-shadow: 18px 5px 20px 2px #000000b5;
+}
+
+.nav-bar .container .logo
+{
+    color:black;
+    float: left;
+    font-size: 50px;
+    padding-left:40px ;
+}
+
+.nav-bar .container .logo span
+{
+    color: rgb(23, 136, 0);
+}
+
+.nav-bar .container .bar
+{
+    float: right;
+    display: inline-block;
+}
+
+.nav-bar .container .bar ul li
+{
+    float: left;
+    list-style: none;
+    position: relative;
+    padding: 3px 30px 20px 20px; 
+}
+
+.nav-bar .container .bar ul li a
+{
+    color: black;
+    text-decoration: none
+}
+
+.nav-bar .container .bar ul li input
+{
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 89, 33);
+}
+
+.bar ul .sarch
+{
+    margin-left: -30px;
+}
+
+.nav-bar .container .bar ul li button
+{
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.max-weight
+{
+    display: none;
+}
+@media(max-width:1000px)
+{
+    .max-weight{display: block;}
+
+    .max-weight .toggle-btn1{margin-top: 25px;}
+
+    .toggle-btn1  span 
+    {
+        display:block;
+        width:30px;
+        height:5px;
+        background:black;
+        margin:5px 8px;
+        cursor:pointer;
+    }
+    .max-weight  .wrapper1 .sidebar1 .toggle-btn1 
+    {
+        margin-left: 55px;
+        margin-top: 28px;
+    }
+      
+    .nav-bar .container .bar{display: none;}
+    
+    .max-weight  .wrapper1 .sidebar1 
+    {
+        margin-right: -120px;
+        transition:all 300ms linear;
+    }
+    .max-weight .wrapper1 .sidebar1.active {margin-right:0px;}
+    
+    .max-weight .wrapper1{
+        display: flex;
+        position: relative;
+        float: right;
+    }
+    
+    .max-weight .wrapper1 .sidebar1{
+        width: 170px;
+        height:auto;
+        background: #00000080;
+        padding: 12px 0px;
+        position: fixed;
+        top: 20%;
+        right: 0;
+        border-radius: 15px 0 0 15px;
+    }
+    .max-weight .wrapper1 .sidebar1 ul li
+    {
+        padding: 15px;
+        list-style: none;
+        margin: 0 0px 0px -40px;
+        text-align: center;
+    }    
+
+    .max-weight .wrapper1 .sidebar1 ul li a
+    {
+        color: white;
+        display: block;
+        text-decoration: none
+    }
+
+    .max-weight .wrapper1 .sidebar1 ul li a i
+    {
+        float: left;
+        color: #172c13;
+    }
+
+    .max-weight .wrapper1 .sidebar1 ul .sarch
+    {
+        display: inline;
+        position: absolute;
+    }
+
+    .max-weight .wrapper1 .sidebar1 ul li a input
+    {
+        width: 100px;
+        margin-left: 40px;
+        border-radius: 20px;
+        border: none;
+    }
+}
+/*end header*/
+
+
+                
+/*start footer*/
+
+.footer
+{
+    background-color:#25222e ;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 0px 100px;
+    bottom: 0;
+}
+
+.footer1
+{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 0;
+}
+
+.footer .about-us 
+{
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+    float: left;
+    line-height: 40px;
+}
+
+.footer .contact-us h2{color: white;}
+
+.footer .contact-us
+{
+    float: right;
+    width: 50%;
+}
+
+.footer .contact-us input
+{
+    width: 300px;
+    height: 150px;
+}
+
+.footer .contact-us button
+{
+    margin-top: 20px;
+    padding: 10px 40px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/*end footer*/
